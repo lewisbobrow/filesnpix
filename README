@@ -1,0 +1,53 @@
+/*********************************************************/
+
+Homework 1: Files, Pictures and Interfaces
+
+/*********************************************************/
+Authors: 
+
+Name: Lawrence Xu
+UTLN: lxu03
+
+Name: Lewis Bobrow
+UTLN: lbobro01
+
+/*********************************************************/
+
+Collaborators:
+
+COMP 40 TA's including but not limited to:
+-Byron Zhong
+-Jessica Wang
+-Ben London
+-Michael Kotlik
+-James Cameron
+
+/*********************************************************/
+
+Aspects correctly implemented:
+
+brightness.c - correctly prints the average brightness of 
+a grayscale image on a scale of 0 to 1.
+
+readaline.c - correctly reads a line of any size from a 
+filestream, stores it, and returns the number of bytes
+in the line.
+
+simlines.c - correctly prints the similar lines in one
+or more files.
+
+valgrind reports that several blocks (corresponding to the
+number of atoms created) are still in the heap at exit.
+This is because there is no way to free the memory
+allocated for each atom (as per the spec).
+There are no other memory leaks.
+
+
+/*********************************************************/
+
+Hours spent completing assignment: 30
+
+/*********************************************************/
+
+
+
